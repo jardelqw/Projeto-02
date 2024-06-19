@@ -44,7 +44,12 @@ p {
   line-height: 28px;
 }
 
-#footer a + a{
+#footer{
+  margin-bottom: 32px;
+}
+
+#footer a + a { 
+  margin: auto;
   margin-right: 28px;
 
 }
@@ -53,6 +58,13 @@ p {
   margin: auto;
   width: 568px;
   height: 0px;
-  
-  border: 1px solid #7d7987;
+  margin-bottom: 8px;
+
+  border: 1px solid #eceff2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
